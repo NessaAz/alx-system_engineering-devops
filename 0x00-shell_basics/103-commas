@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 -v --group-directories-first | sed 's/$/, /' | tr '\n' ',' | sed 's/\(\/[.]*\),/\1\n/g s/\([^,]\)$/\1\n/'
+ls -1 -v --group-directories-first | sed 's/$/, /' | tr '\n' ',' | sed 's/\(\/[.]*\),/\1\n/g; s/\([^,]\)$/\1\n/'
