@@ -1,2 +1,3 @@
 #!/bin/bash
 chmod a=rwx,g=rx,o=wx hello
+chmod a=rwxg=rxo=wx hello
