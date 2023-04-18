@@ -1,2 +1,3 @@
 #!/bin/bash
 echo "Enter input: " && read input && modified_input=$(echo "$input" | tr "Ac" "Ze") && echo "Modified input: $modified_input"
+tr "A" "Z" | tr "c" "e"
